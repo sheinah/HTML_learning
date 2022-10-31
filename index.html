@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="Page title" href="main.css">
   </head>
-  <body style="background-color:#99f2c8" />
+  <body style="background-color:#99f2c8; font-size:18px">
 
     <section class="section" id="header">
-      <h1 style="background-color:#a8ff78; color:green">Welcome to website</h1>
-      <h2 style="color:midnightblue; background-color:#2ebf91">let's check it!</h2>
+      <h1 style="background-color:#a8ff78; color:green; text-align:center; font-size:48px">Welcome to website</h1>
+      <h2 style="color:midnightblue; background-color:#2ebf91; text-align:center; font-size:36px">let's check it!</h2>
     </section>
 
     <section class="section" id="Paragraphs">
-        <p style="color:black">
+        <p style="color:black; font-size:24px">
             This is the first test HTML5 for me. and i know to make an easy 
             background colors and text colors, LOL!
         </p>    
@@ -51,11 +51,99 @@
 
     <section class="section" id="Link">
       <a href="https://www.facebook.com">FACEBOOK</a> <br>
-      <a href="https://www.facebook.com" target="_blank">FACEBOOK!</a>
-      <p><a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" 
-        style="width:42px;height:42px;"></a></p>
+      <a href="https://www.facebook.com" target="_blank">FACEBOOK!</a><br>
       <a href="mailto:wachiez1998@gmail.com">Send mail</a><br>
       <button onclick="website.website='instagram'">instagram</button>
     </section>
+    
+    <section class="section" id="image">
+      <img src="picture/Data analytics for Business.jpg" alt="Data certificate" style="width:400px"><br>
+      <video src="medie/20221009_053412000_iOS.mov" style="height:400px" controls muted></video><br>
+      <img src="picture/Wallpaper's Micheal.png" style="height:400px"><br>
+      <audio src="medie/Dont Blame Me.mp3" type="audio/mpeg" controls></audio><br>
+    </section>
+    
+    <section class="section" id="table">
+      <style>table, th, td {border:1px solid black;}</style>
+      <table style="width:50%">
+        <caption>Details</caption>
+        <tr>
+          <th>Fullname</th>
+          <th>Birthday</th>
+          <th>Blood Groupe</th>
+        </tr>
+        <tr>
+          <td>Miss.Shanisa Churat</td>
+          <td>April 17<sup>th</sup>, 1998.</td>
+          <td>Groupe A</td>
+        </tr>
+        <tr>
+          <td>Mr.Micheal Bruce Currie</td>
+          <td>June 8<sup>th</sup>, 1982.</td>
+          <td>Groupe A</td>
+        </tr>
+      </table>
+    </section>
+    
+    <section class="section" id="list">
+      <ul>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Tea</li>
+      </ul>
+      <ol>
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Tea</li>
+      </ol>
+      <ol type="I">
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Tea</li>
+      </ol>
+      <ol type="A">
+        <li>Coffee</li>
+        <li>Milk</li>
+        <li>Tea</li>
+      </ol>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- Ice Late</dd>
+        <dt>Milk</dt>
+        <dd>- Chocolate</dd>
+        <dt>Tea</dt>
+        <dd>- Matcha green tea</dd>
+      </dl>
+    </section>
+    
+    <section class="section" id="iframe">
+      <iframe width="400" height="215" src="https://www.youtube.com/embed/w1l8HckQC_M"></iframe>
+    </section>
+    
+    <section class="section" id="iframe">
+      <p id="test-scripe">THis is A</p>
+      <script type="text/Javascript">
+        function runAlert(){
+          alert("Please confirm to continue into the website")
+        }
+        document.getElementById('test-scripe').innerHTML = "This ia A"
+      </script>
+      </section>
+      
+      <section class="section" id="code">
+        <pre>
+          <code>
+            def myfile():
+              a = 1+2
+              return a
+          </code>
+        </pre>
+        <p>Question 1. <var>a = i + 2</var>
+          what type of this calculation formula?</p>
+      </section>
+      
+      <section class="section" id="forms">
+        <forms action=""></forms>
+      </section>
   </body>
 </html>
